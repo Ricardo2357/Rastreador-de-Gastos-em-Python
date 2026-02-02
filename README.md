@@ -72,7 +72,7 @@ python3 main.py
 ## Estrutura do Projeto
 
 ```
-Ratreador-de-Gastos/
+Ratreador-de-Gastos-em-Python/
 ├── assets/
 │   └── Rastreador-de-Gastos-Terminal.png
 ├── LICENSE
