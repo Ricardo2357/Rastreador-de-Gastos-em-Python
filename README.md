@@ -8,7 +8,7 @@ Este projeto é um gerenciador de despesas pessoais que funciona via terminal. E
 
 ## Demonstração
 
-![Imagem do Terminal](assets/Rastreador-de-Gastos.png)
+![Imagem do Terminal](assets/Rastreador-de-Gastos-Terminal.png)
 
 Interface do rastreador de gastos em execução no terminal.
 
@@ -26,13 +26,14 @@ Interface do rastreador de gastos em execução no terminal.
 2. Verifique se você possui Python 3 instalado no computador.
 
 ### Como Instalar as Dependências
-Para instalar as bibliotecas Click e Rich necessárias para o projeto, siga os passos abaixo:
 
 1. Abra o Terminal, dentro da pasta do projeto;
+   
 2. Execute o seguinte comando para instalar a biblioteca click:
    ```
    pip install click 
    ```
+   
 3. Execute o seguinte comando para instalar a biblioteca rich:
    ```
    pip install rich
@@ -59,11 +60,14 @@ python3 main.py
 ## Como Utilizar
 
 1. No terminal, digite "python main.py add" para adicionar uma despesa. Digite sua data, descrição, valor e categoria conforme as instruções;
-2. 
-3. No terminal, digite "python main.py edit", com o ID como argumento, para editar uma despesa já existente. Digite a nova data, descrição, valor e categoria conforme as instruções (caso não queira editar alguma informação, digite enter);
-4. No terminal, digite "python main.py delete", com o ID como argumento, para remover uma despesa já existente;
-5. No terminal, digite "python main.py list", com "category" e "month-year" como argumentos opcionais, para listar as despesas adicionadas. Category deve ter uma categoria como argumento e month-year deve ter uma data no formato (MM/YYYY) como argumento;
-6. No terminal, digite "python main.py resume", com o mês e ano (MM/YYYY) como argumento, para o terminal fornecer informações sobre cada despesa relativa a data fornecida, como sua porcentagem em relação ao valor total.
+
+2. No terminal, digite "python main.py edit", com o ID como argumento, para editar uma despesa já existente. Digite a nova data, descrição, valor e categoria conforme as instruções (caso não queira editar alguma informação, digite enter);
+
+3. No terminal, digite "python main.py delete", com o ID como argumento, para remover uma despesa já existente;
+
+4. No terminal, digite "python main.py list", com "category" e "month-year" como argumentos opcionais, para listar as despesas adicionadas. Category deve ter uma categoria como argumento e month-year deve ter uma data no formato (MM/YYYY) como argumento;
+
+5. No terminal, digite "python main.py resume", com o mês e ano (MM/YYYY) como argumento, para o terminal fornecer informações sobre cada despesa relativa a data fornecida, como sua porcentagem em relação ao valor total.
 
 ## Estrutura do Projeto
 
