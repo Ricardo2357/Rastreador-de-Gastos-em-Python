@@ -43,7 +43,7 @@ Interface do rastreador de gastos em execução no terminal.
 
 Após baixar ou clonar o projeto, siga os passos abaixo para executar o jogo no terminal.
 
-### Executando o Jogo:
+### Executando o Rastreador de Gastos:
 
 No Windows:
 
