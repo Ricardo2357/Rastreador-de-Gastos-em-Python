@@ -61,11 +61,11 @@ python3 main.py
 
 1. No terminal, digite "python main.py add" para adicionar uma despesa. Digite sua data, descrição, valor e categoria conforme as instruções;
 
-2. No terminal, digite "python main.py edit", com o ID como argumento, para editar uma despesa já existente. Digite a nova data, descrição, valor e categoria conforme as instruções (caso não queira editar alguma informação, digite enter);
+2. No terminal, digite "python main.py edit", com o "--id" como argumento, para editar uma despesa já existente. Digite a nova data, descrição, valor e categoria conforme as instruções (caso não queira editar alguma informação, digite enter);
 
-3. No terminal, digite "python main.py delete", com o ID como argumento, para remover uma despesa já existente;
+3. No terminal, digite "python main.py delete", com o "--id' como argumento, para remover uma despesa já existente;
 
-4. No terminal, digite "python main.py list", com "category" e "month-year" como argumentos opcionais, para listar as despesas adicionadas. Category deve ter uma categoria como argumento e month-year deve ter uma data no formato (MM/YYYY) como argumento;
+4. No terminal, digite "python main.py list", com "--category" e "--month-year" como argumentos opcionais, para listar as despesas adicionadas. Category deve ter uma categoria como argumento e month-year deve ter uma data no formato (MM/YYYY) como argumento;
 
 5. No terminal, digite "python main.py resume", com o mês e ano (MM/YYYY) como argumento, para o terminal fornecer informações sobre cada despesa relativa a data fornecida, como sua porcentagem em relação ao valor total.
 
