@@ -8,7 +8,7 @@ Este projeto é um gerenciador de despesas pessoais que funciona via terminal. E
 
 ## Demonstração
 
-![Imagem do Terminal](assets/Rastreador-de-Gastos-Terminal.png)
+![Imagem do Terminal](images/terminal-rastreador-de-gastos-terminal.png)
 
 Interface do rastreador de gastos em execução no terminal.
 
@@ -30,11 +30,13 @@ Interface do rastreador de gastos em execução no terminal.
 1. Abra o Terminal, dentro da pasta do projeto;
    
 2. Execute o seguinte comando para instalar a biblioteca click:
+   
    ```
    pip install click 
    ```
    
 3. Execute o seguinte comando para instalar a biblioteca rich:
+
    ```
    pip install rich
    ```
@@ -73,8 +75,8 @@ python3 main.py
 
 ```
 Ratreador-de-Gastos-em-Python/
-├── assets/
-│   └── Rastreador-de-Gastos-Terminal.png
+├── images/
+│   └── terminal-rastreador-de-gastos.png
 ├── LICENSE
 ├── README.md
 └── main.py 
