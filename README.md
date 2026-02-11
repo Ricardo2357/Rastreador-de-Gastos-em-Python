@@ -8,7 +8,7 @@ Este projeto é um gerenciador de despesas pessoais que funciona via terminal. E
 
 ## Demonstração
 
-![Imagem do Terminal](images/terminal-rastreador-de-gastos-terminal.png)
+![Imagem do Terminal](images/terminal-rastreador-de-gastos.png)
 
 Interface do rastreador de gastos em execução no terminal.
 
